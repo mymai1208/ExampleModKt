@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "examplemod",
+  "version": "${version}",
+  "name": "ExampleMod",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Example"
+  ],
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [ {
+      "adapter": "kotlin",
+      "value": "net.example.examplemod.ExampleMod"
+    }]
+  }
+}
